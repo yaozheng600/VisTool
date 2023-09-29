@@ -286,7 +286,7 @@ if privacy_aggree:
     uploaded_data = st.file_uploader("Upload your CSV file here",type="CSV")
     if uploaded_data:
         data = pd.read_csv(uploaded_data)
-        data = data.drop(data.columns[0], 1)
+        data = data.drop(data.columns[0],axis=1)
         ASQ(task_num=1)
         st.divider()
         with st.container():

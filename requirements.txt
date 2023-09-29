@@ -29,10 +29,11 @@ referencing==0.30.2
 requests==2.31.0
 rich==13.5.3
 rpds-py==0.10.3
+scipy==1.11.3
 six==1.16.0
 smmap==5.0.1
 streamlit==1.27.1
-streamlit_lottie==0.0.5
+streamlit-lottie==0.0.5
 tenacity==8.2.3
 toml==0.10.2
 toolz==0.12.0

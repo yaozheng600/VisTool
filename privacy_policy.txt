@@ -1,0 +1,5 @@
+This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site. We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
+### Information Collection And Use
+While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you.
+We collect information that your browser sends whenever you visit our Site. This data may include information such as your browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.
+We also monitor how you are using our system. The data might also be used to further improve the Quality and User Experience of our service. Please be assured that we __do not share__ this data with any third party.

@@ -1,5 +1,6 @@
 import json
-
+import tempfile
+from google.cloud import storage
 import streamlit as st
 from streamlit_lottie import st_lottie
 import pandas as pd
@@ -10,8 +11,13 @@ import Interface_config as ic
 from Anony.preserver import Preserver
 from Measurement import Measurement
 
+credential_path = "GCS_vistool.json"
+client = storage.Client.from_service_account_json(credential_path)
+bucket_name = "survey_masterarbeit"
+csv_file_name = "survey_1_iteration"
 survey = pd.DataFrame(data=[3],columns=['Age'])
 privacy_policy = open("privacy_policy.txt")
+
 def load_lottiefile(filepath:str):
     with open(filepath,"r") as f:
         return json.load(f)
@@ -379,10 +385,27 @@ if privacy_aggree:
                 survey[f"Effectiveness_Task{6}"] = effectiveness(data, anony_data_6, QIs, SA)
                 confidence_Q(task_num=6)
                 ASQ(task_num=6)
-                lottie_code = load_lottiefile('style/thank_you.json')
-                st_lottie(lottie_code,height=500,width=500, key="thank you")
-        st.divider()
+                submit =st.button("Submit my questionnaire",type='primary',key="submit_survey",disabled=st.session_state.submit_survey)
+                if submit:
 
+                    bucket = client.get_bucket(bucket_name)
+                    blob = bucket.blob(csv_file_name)
+                    if blob.exists():
+                        with tempfile.NamedTemporaryFile(delete=False, suffix=".csv") as temp_csv_file:
+                            blob.download_to_filename(temp_csv_file.name)
+                            # 转化云存储上的CSV文件为DataFrame
+                            cloud_data = pd.read_csv(temp_csv_file.name)
+                        merged_data = pd.concat([cloud_data,survey],ignore_index=True)
+                    else:
+                        merged_data = survey
+                    merged_csv = merged_data.to_csv(index=False)
+                    blob.upload_from_string(merged_csv,content_type='csv')
+                    st.success("Your questionnaire is submitted, you may leave this web page.")
+                    lottie_code = load_lottiefile('style/thank_you.json')
+                    st_lottie(lottie_code,height=500,width=500, key="thank you")
+        st.divider()
+# data_json = survey.to_json(orient='records',date_format='iso')
+# st.dataframe(json.loads(data_json))
 # st.dataframe(survey)
 
 hide_streamlit_style = """

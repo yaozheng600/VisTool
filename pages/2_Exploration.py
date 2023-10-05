@@ -11,7 +11,7 @@ import Interface_config as ic
 from Anony.preserver import Preserver
 from Measurement import Measurement
 
-credential_path = "GCS_vistool.json"
+credential_path = st.secrets("GOOGLE_CLOUD_CREDENTIALS_JSON")
 client = storage.Client.from_service_account_json(credential_path)
 bucket_name = "survey_masterarbeit"
 csv_file_name = "survey_1_iteration"

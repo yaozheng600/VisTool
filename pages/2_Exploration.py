@@ -1,5 +1,4 @@
 import json
-import os
 import tempfile
 from google.cloud import storage
 import streamlit as st
@@ -12,8 +11,8 @@ import Interface_config as ic
 from Anony.preserver import Preserver
 from Measurement import Measurement
 
-credentials_json = os.environ["GOOGLE_CLOUD_CREDENTIALS_JSON"]
-credential_path = json.loads(credentials_json)
+with open(st.secrets["GOOGLE_CLOUD_CREDENTIALS_JSON_FILE"], "r") as file:
+    credential_path = json.load(file)
 client = storage.Client.from_service_account_json(credential_path)
 bucket_name = "survey_masterarbeit"
 csv_file_name = "survey_1_iteration"

@@ -14,7 +14,7 @@ from Measurement import Measurement
 
 with tempfile.NamedTemporaryFile(mode='w', delete=False) as temp_file:
     # 将 JSON 数据写入临时文件
-    json_data = os.environ.get('GCS_CREDENTIALS')
+    json_data = st.secrets.get('GCS_CREDENTIALS')
     temp_file.write(json_data)
 # 获取临时文件的文件名
 temp_file_name = temp_file.name
@@ -391,7 +391,8 @@ if privacy_aggree:
                 survey[f"Effectiveness_Task{6}"] = effectiveness(data, anony_data_6, QIs, SA)
                 confidence_Q(task_num=6)
                 ASQ(task_num=6)
-                submit =st.button("Submit my questionnaire",type='primary',key="submit_survey",disabled=st.session_state.submit_survey)
+
+                submit =st.button("Submit my questionnaire",type='primary',key="submit_survey")
                 if submit:
 
                     bucket = client.get_bucket(bucket_name)

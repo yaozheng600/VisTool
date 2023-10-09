@@ -12,9 +12,13 @@ import Interface_config as ic
 from Anony.preserver import Preserver
 from Measurement import Measurement
 
-
-credential_path = os.environ.get('GCS_CREDENTIALS')
-client = storage.Client.from_service_account_info(credential_path)
+with tempfile.NamedTemporaryFile(mode='w', delete=False) as temp_file:
+    # 将 JSON 数据写入临时文件
+    json_data = os.environ.get('GCS_CREDENTIALS')
+    temp_file.write(json_data)
+# 获取临时文件的文件名
+temp_file_name = temp_file.name
+client = storage.Client.from_service_account_json(temp_file_name)
 bucket_name = "survey_masterarbeit"
 csv_file_name = "survey_1_iteration"
 survey = pd.DataFrame(data=[3],columns=['Age'])

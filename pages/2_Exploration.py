@@ -42,10 +42,8 @@ def load_lottiefile(filepath:str):
         return json.load(f)
 def pre_questionnaire():
     with st.container():
-            survey['Age']=st.selectbox(
-   _("__Your age:__"),
-   ("0-9","10-19", "20-39",'40-59','over 60'),
-   index=None,
+            survey['Age']=st.number_input(
+   _("__Your age:__"),min_value=1,max_value=100,value=18,
    placeholder=_("Select your age range..."),
 )
             survey['Gender']=st.radio(label=_("__Q1: Your gender__"),options=["Male", "Female", "others"], horizontal=True)

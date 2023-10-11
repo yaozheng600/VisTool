@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 16:15+0200\n"
-"PO-Revision-Date: 2023-10-11 18:12+0200\n"
+"PO-Revision-Date: 2023-10-11 18:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -44,6 +44,9 @@ msgstr "__问题：预想一下，你认为这个任务的难度如何？__"
 #: 2_Exploration.py:55
 msgid "very difficult"
 msgstr "很难"
+
+msgid "privacy_policy.txt"
+msgstr "隐私政策.txt"
 
 #: 2_Exploration.py:60
 msgid "very easy"

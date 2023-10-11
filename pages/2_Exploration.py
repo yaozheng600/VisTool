@@ -1,7 +1,6 @@
 import global_var
 import gettext
 import json
-import os
 import tempfile
 from google.cloud import storage
 import streamlit as st
@@ -35,7 +34,7 @@ client = storage.Client.from_service_account_json(temp_file_name)
 bucket_name = "survey_masterarbeit"
 csv_file_name = "survey_1_iteration"
 survey = pd.DataFrame(data=[3],columns=['Age'])
-privacy_policy = open("privacy_policy.txt")
+privacy_policy = open(_("privacy_policy.txt"))
 
 def load_lottiefile(filepath:str):
     with open(filepath,"r") as f:

@@ -45,11 +45,11 @@ def pre_questionnaire():
    _("__Your age:__"),min_value=1,max_value=100,value=18,
    placeholder=_("Select your age range..."),
 )
-            survey['Gender']=st.radio(label=_("__Q1: Your gender__"),options=["Male", "Female", "others"], horizontal=True)
-            survey['EL']=st.radio(label=_("__Q2: Your education level__"), options=["Less than a high school diploma", 'High school graduate or equivalent',
-                                            'Bachelor degree or higher'])
+            survey['Gender']=st.radio(label=_("__Q1: Your gender__"),options=[_("Male"), _("Female"), _("others")], horizontal=True)
+            survey['EL']=st.radio(label=_("__Q2: Your education level__"), options=[_("Less than a high school diploma"), _('High school graduate or equivalent'),
+                                            _('Bachelor degree or higher')])
             survey['Data_exp']=st.radio(label=_("__Q3: Your experience in working with data__"),
-                                     options=["Data newbie","Data beginner","Data expert"])
+                                     options=[_("Data newbie"),_("Data beginner"),_("Data expert")])
 def SEQ(task_num):
     with st.container():
         st.write(_("__Question: How do you expect the ease of this task?__"))
@@ -114,7 +114,7 @@ def select_attributes(data):
     return QIs,SA
 def spreadsheet(data):
     with st.spinner(text=_("In progress...")):
-        tab2, tab1, tab3 = st.tabs(["🗃 Data", "📉 Description", "📈 Detail in Chart"])
+        tab2, tab1, tab3 = st.tabs([_("🗃 Data"), _("📉 Description"), _("📈 Detail in Chart")])
         with tab1:
             st.subheader(_("Numeric Atrributes"))
             st.write(data.describe())

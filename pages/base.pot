@@ -3,362 +3,350 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 16:51+0200\n"
-"PO-Revision-Date: 2023-10-12 16:57+0200\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_CN\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
 
 #: 2_Exploration.py:37
 msgid "privacy_policy.txt"
-msgstr "隐私政策.txt"
+msgstr ""
 
 #: 2_Exploration.py:45
 msgid "__Your age:__"
-msgstr "__你的年龄__"
+msgstr ""
 
 #: 2_Exploration.py:46
 msgid "Select your age range..."
-msgstr "选择你的年龄…"
+msgstr ""
 
 #: 2_Exploration.py:48
 msgid "__Q1: Your gender__"
-msgstr "__问1：你的性别__"
+msgstr ""
 
 #: 2_Exploration.py:48
 msgid "Male"
-msgstr "男"
+msgstr ""
 
 #: 2_Exploration.py:48
 msgid "Female"
-msgstr "女"
+msgstr ""
 
 #: 2_Exploration.py:48
 msgid "others"
-msgstr "其它"
+msgstr ""
 
 #: 2_Exploration.py:49
 msgid "__Q2: Your education level__"
-msgstr "__问2：你的受教育程度__"
+msgstr ""
 
 #: 2_Exploration.py:49
 msgid "Less than a high school diploma"
-msgstr "高中以下"
+msgstr ""
 
 #: 2_Exploration.py:49
 msgid "High school graduate or equivalent"
-msgstr "高中或其它同等学历"
+msgstr ""
 
 #: 2_Exploration.py:50
 msgid "Bachelor degree or higher"
-msgstr "本科及以上"
+msgstr ""
 
 #: 2_Exploration.py:51
 msgid "__Q3: Your experience in working with data__"
-msgstr "__问3：你在数据处理方面的经验__"
+msgstr ""
 
 #: 2_Exploration.py:52
 msgid "Data newbie"
-msgstr "数据小白"
+msgstr ""
 
 #: 2_Exploration.py:52
 msgid "Data beginner"
-msgstr "数据初级者"
+msgstr ""
 
 #: 2_Exploration.py:52
 msgid "Data expert"
-msgstr "数据大师"
+msgstr ""
 
 #: 2_Exploration.py:55
 msgid "__Question: How do you expect the ease of this task?__"
-msgstr "__问题：预想一下，你认为这个任务的难度如何？__"
+msgstr ""
 
 #: 2_Exploration.py:58
 msgid "very difficult"
-msgstr "很难"
+msgstr ""
 
 #: 2_Exploration.py:63
 msgid "very easy"
-msgstr "很简单"
+msgstr ""
 
 #: 2_Exploration.py:66
 msgid ""
 "You finished this task, please grade this task according to your user "
 "experience:"
-msgstr "你完成了本任务，请根据你的体验打分："
+msgstr ""
 
 #: 2_Exploration.py:67
 msgid ""
 "__1. Overall, I am satisfied with the ease of completing the task in this "
 "scenario.__"
-msgstr "__1.总的来说，我可以接受这个任务的完成难度__"
+msgstr ""
 
 #: 2_Exploration.py:70 2_Exploration.py:81 2_Exploration.py:91
 msgid "strongly disagree"
-msgstr "强烈反对"
+msgstr ""
 
 #: 2_Exploration.py:76 2_Exploration.py:87 2_Exploration.py:97
 msgid "strongly agree"
-msgstr "非常同意"
+msgstr ""
 
 #: 2_Exploration.py:77
 msgid ""
 "__2. Overall, I am satisfied with the amount of time it took to complete the "
 "task in this scenario.__"
-msgstr "__2.总的来说，我可以接受完成这个任务的时间消耗__"
+msgstr ""
 
 #: 2_Exploration.py:88
 msgid ""
 "__3. Overall, I am satisfied with the support information (tips, user "
 "interaction) when completing the task.__"
-msgstr "__3.总的来说，我对在完成任务时的帮助信息（提示，交互）很满意__"
+msgstr ""
 
 #: 2_Exploration.py:100
 msgid ""
 "Are you sure that you have done a good decision to balance the utility and "
 "privacy for anonymizaed data?"
-msgstr "你确定你做了一个好的选择吗？"
+msgstr ""
 
 #: 2_Exploration.py:103
 msgid "I'm very not sure"
-msgstr "我很不确定"
+msgstr ""
 
 #: 2_Exploration.py:109
 msgid "I'm very sure"
-msgstr "我很确定"
+msgstr ""
 
 #: 2_Exploration.py:111
 msgid "__Select attributes you want to publish:__"
-msgstr "__选择你想发布的信息条目：__"
+msgstr ""
 
 #: 2_Exploration.py:111
 msgid "Select attributes"
-msgstr "选择多个信息条目"
+msgstr ""
 
 #: 2_Exploration.py:112
 msgid "__Select a sensitive attribute:__"
-msgstr "__选择一个敏感信息条目__"
+msgstr ""
 
 #: 2_Exploration.py:112
 msgid "Select one attribute"
-msgstr "选择一个信息条目"
+msgstr ""
 
 #: 2_Exploration.py:116 2_Exploration.py:134
 msgid "In progress..."
-msgstr "处理中…"
+msgstr ""
 
 #: 2_Exploration.py:117
 msgid "🗃 Data"
-msgstr "🗃数据"
+msgstr ""
 
 #: 2_Exploration.py:117
 msgid "📉 Description"
-msgstr "📉 描述"
+msgstr ""
 
 #: 2_Exploration.py:117
 msgid "📈 Detail in Chart"
-msgstr "📈 以图表显示细节"
+msgstr ""
 
 #: 2_Exploration.py:119
 msgid "Numeric Atrributes"
-msgstr "数值型信息"
+msgstr ""
 
 #: 2_Exploration.py:121
 msgid "Categorical Atrributes"
-msgstr "类别型信息"
+msgstr ""
 
 #: 2_Exploration.py:124
 msgid "Original Data"
-msgstr "源数据"
+msgstr ""
 
 #: 2_Exploration.py:127
 msgid "Chart"
-msgstr "图表"
+msgstr ""
 
 #: 2_Exploration.py:128
 msgid "Select the atrributes you want to see in detail"
-msgstr "选择你想要进一步查看的信息条目"
+msgstr ""
 
 #: 2_Exploration.py:138
 msgid "Utility Loss"
-msgstr "效用损失"
+msgstr ""
 
 #: 2_Exploration.py:138 2_Exploration.py:140
 msgid "from 0(no loss) to 1(serious loss)"
-msgstr "从0（无损失）到1（严重损失）"
+msgstr ""
 
 #: 2_Exploration.py:140
 msgid "Privacy Loss"
-msgstr "隐私损失"
+msgstr ""
 
 #: 2_Exploration.py:145 2_Exploration.py:313
 msgid "__Use the following tool to achieve this goal.__"
-msgstr "__用以下给出的工具来达成任务目标__"
+msgstr ""
 
 #: 2_Exploration.py:148
 msgid "__Anonymization method__"
-msgstr "__匿名化方法__"
+msgstr ""
 
 #: 2_Exploration.py:149
 msgid "__Seclect an anonymization method:__"
-msgstr "__选择一个匿名化方法：__"
+msgstr ""
 
 #: 2_Exploration.py:149
 msgid ""
 "Each method considers the privacy protecting from different perspectives."
-msgstr "每一个方法从不同的隐私保护角度考虑问题。"
+msgstr ""
 
 #: 2_Exploration.py:151
 msgid "__Parameters__"
-msgstr "__参数__"
+msgstr ""
 
 #: 2_Exploration.py:153
 msgid "__p__ value:"
-msgstr "__p__ 值:"
+msgstr ""
 
 #: 2_Exploration.py:153
 msgid "0 is lowest privacy level and 1 is highest."
-msgstr "0是最低的隐私级别，1是最高。"
+msgstr ""
 
 #: 2_Exploration.py:158
 msgid "__k__ value:"
-msgstr "__k__ 值:"
+msgstr ""
 
 #: 2_Exploration.py:158
 msgid ""
 "This parameter is needed in all of the given 3 methods. In general, a high "
 "value indicates high privacy but leads to more information loss."
 msgstr ""
-"这个参数在所有给出的三种方法中都会被用到，一个较大的值意味着高隐私保护程度但"
-"是会导致更多的信息丢失。"
 
 #: 2_Exploration.py:162
 msgid "__l__ value:"
-msgstr "__l__ 值:"
+msgstr ""
 
 #: 2_Exploration.py:162
 msgid ""
 "This parameter is needed in l-diversity. In general, a high value indicates "
 "high privacy but leads to more information loss."
 msgstr ""
-"这个参数仅应用于l-diversity方法，一个较大的值意味着高隐私保护程度但是会导致更"
-"多的信息丢失。"
 
 #: 2_Exploration.py:165
 msgid "__t__ value:"
-msgstr "__t__ 值："
+msgstr ""
 
 #: 2_Exploration.py:166
 msgid ""
 "This parameter is needed in t-closeness. In general, a high value indicates "
 "high privacy but leads to more information loss."
 msgstr ""
-"这个参数仅应用于t-closeness方法，一个较大的值意味着高隐私保护程度但是会导致更"
-"多的信息丢失。"
 
 #: 2_Exploration.py:215
 msgid "Operation in progress. Please wait."
-msgstr "处理中，请等待。"
+msgstr ""
 
 #: 2_Exploration.py:258
 msgid "Information and Privacy trade-off"
-msgstr "信息和隐私的权衡"
+msgstr ""
 
 #: 2_Exploration.py:262
 msgid "Privacy_loss"
-msgstr "隐私泄露"
+msgstr ""
 
 #: 2_Exploration.py:263
 msgid "Information_loss"
-msgstr "信息丢失"
+msgstr ""
 
 #: 2_Exploration.py:270
 msgid "Exploration"
-msgstr "探索"
+msgstr ""
 
 #: 2_Exploration.py:271
 msgid ""
 "Welcome to join the Test! Now, please take it easy. All you need to do is "
 "following the steps below and complete the given tasks. Soooo, let's start!"
 msgstr ""
-"欢迎参加本测试！现在，请尝试让你的心情平复下来。你只需要跟着引导一步步的完成"
-"一些任务。所以… 让我们开始吧！"
 
 #: 2_Exploration.py:272
 msgid "Step 0: Some preparation"
-msgstr "第0步：一些准备工作"
+msgstr ""
 
 #: 2_Exploration.py:273
 msgid "Please read our privacy policy."
-msgstr "请阅读我们的隐私政策。"
+msgstr ""
 
 #: 2_Exploration.py:274
 msgid "Privacy policy..."
-msgstr "隐私政策…"
+msgstr ""
 
 #: 2_Exploration.py:276
 msgid "I agree"
-msgstr "我同意"
+msgstr ""
 
 #: 2_Exploration.py:279
 msgid "Let us know more about you"
-msgstr "让我们对你多些了解"
+msgstr ""
 
 #: 2_Exploration.py:282
 msgid "A file you need for the test"
-msgstr "测试所需文件"
+msgstr ""
 
 #: 2_Exploration.py:283
 msgid ""
 "Please click this link to download our test data file. File name: Test.csv. "
 "You may use your own dataset."
 msgstr ""
-"请点击按钮下载测试所需数据文件，文件的名字是test.csv。你也可以用你自己准备的"
-"数据文件。"
 
 #: 2_Exploration.py:285
 msgid "Sleep_health_and_lifestyle_dataset.csv"
-msgstr "Sleep_health_and_lifestyle_dataset.csv"
+msgstr ""
 
 #: 2_Exploration.py:292
 msgid "Download data as CSV"
-msgstr "以csv格式下载文件"
+msgstr ""
 
 #: 2_Exploration.py:296
 msgid "You have downloaded the file successfully!"
-msgstr "你已经成功下载了文件！"
+msgstr ""
 
 #: 2_Exploration.py:299
 msgid "Task 1: upload a data set"
-msgstr "任务1：上传数据文件"
+msgstr ""
 
 #: 2_Exploration.py:300
 msgid ""
 "First, you should upload a data set. You may upload the data set which you "
 "downloaded( or your own csv data file)."
 msgstr ""
-"首先，请你上传一个数据文件。你可以上传我们刚才让你下载的那个文件（或者你自己"
-"的csv文件）"
 
 #: 2_Exploration.py:302
 msgid "Use the following UI component to upload a CSV file."
-msgstr "用以下UI组件上传一个csv文件。"
+msgstr ""
 
 #: 2_Exploration.py:303
 msgid "Upload your CSV file here"
-msgstr "在这上传你的csv文件"
+msgstr ""
 
 #: 2_Exploration.py:310
 msgid "Task2 : Select the attributes you are interested in"
-msgstr "任务2：选择你感兴趣的信息条目"
+msgstr ""
 
 #: 2_Exploration.py:311
 msgid ""
@@ -369,13 +357,10 @@ msgid ""
 "some attributes of the data that you want to publish. 2. Select a sensitive "
 "attribute.__"
 msgstr ""
-"你需要选择一些信息条目。这些信息你希望发布给大众。匿名化会模糊这些信息条目用"
-"以保护隐私。这些信息条目中，有一个叫做 __敏感条目__ 。敏感条目不会被模糊。你"
-"的任务是： __1. 选择一些信息条目。2. 选择一个敏感条目。 __"
 
 #: 2_Exploration.py:320
 msgid "Task 3: Select your anonymization parameters-1"
-msgstr "任务3：选择匿名化方法及参数（一）"
+msgstr ""
 
 #: 2_Exploration.py:321
 msgid ""
@@ -387,21 +372,15 @@ msgid ""
 "method. Check the anonymized data in the spreadsheet. 3. Redo step 1 and 2 "
 "to get a better balance between privacy and information loss.__"
 msgstr ""
-"现在你需要选择一个匿名化方法。我们提供了[k-anonymity](https://en.wikipedia."
-"org/wiki/K-anonymity), [l-diversity](https://en.wikipedia.org/wiki/L-"
-"diversity), 以及 [t-closeness](https://en.wikipedia.org/wiki/T-closeness)。为"
-"了得到一个较好的结果，使得信息损失和隐私保护得到好的权衡，你需要做： __1. 选"
-"择一个匿名化方法。2. 调整参数，并且在电子表格中检查匿名化的效果。3.重复步骤1."
-"和2. 直到你得到一个你认为满意的结果。__"
 
 #: 2_Exploration.py:324 2_Exploration.py:345 2_Exploration.py:360
 #: 2_Exploration.py:373
 msgid "Confirm your choice"
-msgstr "确认你的选择"
+msgstr ""
 
 #: 2_Exploration.py:334
 msgid "Task 4: Select your anonymization parameters-2"
-msgstr "任务4：选择匿名化方法及参数（二）"
+msgstr ""
 
 #: 2_Exploration.py:335
 msgid ""
@@ -410,13 +389,10 @@ msgid ""
 "anonymization parameters? If so, please re-modify the anonymization method "
 "and parameters. You can also insist your choise from last task."
 msgstr ""
-" 我们提供给你一个指示器。指示器会显示效用损失和隐私损失。在指示器的帮助下，或"
-"许能给你新的启发：如何选择隐私方法以及调整参数？请再次调整匿名方法和参数。当"
-"然你也可以坚持你之前的选择。"
 
 #: 2_Exploration.py:351
 msgid "Task 5: Select your anonymization parameters-3"
-msgstr "任务5：选择匿名化方法及参数（三）"
+msgstr ""
 
 #: 2_Exploration.py:352
 msgid ""
@@ -424,12 +400,10 @@ msgid ""
 "which present low privacy to high privacy from 0 to 1. Modify parameter p to "
 "get an optimal balance of privacy and utility you think."
 msgstr ""
-"在这个任务中，我们将参数k，l，以及t聚合为一个参数p。参数p从0到1表示了隐私级别"
-"从低到高。请调整匿名化方法和参数p。用以获得更好的平衡结果。"
 
 #: 2_Exploration.py:366
 msgid "Task 6: Select your anonymization parameters-4"
-msgstr "任务6：选择匿名化方法及参数（四）"
+msgstr ""
 
 #: 2_Exploration.py:367
 msgid ""
@@ -438,14 +412,11 @@ msgid ""
 "With the help of this scatter plot, please select an optimal balance of "
 "privacy and information loss you think."
 msgstr ""
-"在这个任务中，我们将所有隐私方法及其参数的选择自动化。这意味着你不用手动调节"
-"了。以下是一个散点图，它展示了每种参数选择可能性下的隐私损失和效用损失。请利"
-"用散点图给出的信息，再次调节匿名化方法及其参数。"
 
 #: 2_Exploration.py:378
 msgid "Submit my questionnaire"
-msgstr "提交问卷"
+msgstr ""
 
 #: 2_Exploration.py:393
 msgid "Your questionnaire is submitted, you may leave this web page."
-msgstr "你的问卷已经被提交！你可以关闭这个网页了。"
+msgstr ""
